@@ -1,0 +1,7 @@
+C:\Users\alecb\source\repos\Task1.1\Task1.1\bin\Debug\Task1.1.exe.config
+C:\Users\alecb\source\repos\Task1.1\Task1.1\bin\Debug\Task1.1.exe
+C:\Users\alecb\source\repos\Task1.1\Task1.1\bin\Debug\Task1.1.pdb
+C:\Users\alecb\source\repos\Task1.1\Task1.1\obj\Debug\Task1.1.csprojAssemblyReference.cache
+C:\Users\alecb\source\repos\Task1.1\Task1.1\obj\Debug\Task1.1.csproj.CoreCompileInputs.cache
+C:\Users\alecb\source\repos\Task1.1\Task1.1\obj\Debug\Task1.1.exe
+C:\Users\alecb\source\repos\Task1.1\Task1.1\obj\Debug\Task1.1.pdb
