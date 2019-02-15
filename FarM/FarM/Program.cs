@@ -46,6 +46,14 @@ namespace FarM
                 else
                     Console.ForegroundColor = ConsoleColor.Yellow;//в других случаях жёлтым
             }
+            private static void PrintInfo(FileSystemInfo[] x, ConsoleColor c)
+            {
+                Console.ForegroundColor = c;
+                foreach (var t in x)
+                {
+                    Console.WriteLine(t.Name);
+                }
+            }
             public void Show()
             {
                 Console.BackgroundColor = ConsoleColor.Black;
