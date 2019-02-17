@@ -24,7 +24,7 @@ namespace Task2W2
 
         static void Main(string[] args)
         {
-            string direction = (@"C:\Users\alecb\Desktop\PP2\Week 1\input.txt");
+            string direction = (@"C:C:\Users\alecb\Desktop\PP2\Task2W2\input.txt");
             string check = System.IO.File.ReadAllText(direction);
             if (palindrome(check) == true)
             {

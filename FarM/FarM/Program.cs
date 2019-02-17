@@ -120,7 +120,15 @@ namespace FarM
                             Console.ReadKey();
                         }
                     }
-                    if (keyinfo.Key == ConsoleKey.Delete)//с помощью кнопки "Delete" удаляем элемент массива                 
+                    if (keyinfo.Key == ConsoleKey.R)
+                    {
+                        string path1 = currentfs.FullName;
+                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.Clear();
+                        Console.WriteLine("Please write new name, to rename {0}", currentfs.FullName);
+                        string name = Console.ReadLine();
+                    }
+                        if (keyinfo.Key == ConsoleKey.Delete)//с помощью кнопки "Delete" удаляем элемент массива                 
                     {
                         cursor = 0;
                         if (currentfs.GetType() == typeof(DirectoryInfo))
